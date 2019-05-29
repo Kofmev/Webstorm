@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Hartelijk dank</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<div class="dropdown" id="header-top">
+    <button class="dropbtn">Menu</button>
+    <div class="dropdown-content">
+        <a href="Talents.html">Talents</a>
+        <a href="#">Andere classes</a>
+        <a href="Index.html">Home</a>
+    </div>
+</div>
+
+<video controls id="video" width="700" height="500" ></video>
+
+<div>
+    @{
+    if (IsPost) {
+    string fistname = Request.Form["firstname"];
+    string contactname = Request.Form["contactname"];
+    int employeecount = Request.Form["employees"].AsInt();
+
+    <text>
+        You entered: <br />
+        Company Name: @companyname <br />
+        Contact Name: @contactname <br />
+        Employee Count: @employeecount <br />
+    </text>
+    }
+    }
+
+</div>
+
+<p>
+    Ontzettend bedankt voor het opsturen van je informatie. We gaan hier natuurlijk helemaal niks mee doen ;)
+</p>
+<script src="../javascript/VideoPlayer.js">  </script>
+</body>
+</html>
