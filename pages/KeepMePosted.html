@@ -16,28 +16,35 @@
     </div>
 </div>
 
-<form id="myForm" onsubmit="return validateForm()" method="post" action="Thanks.html">
-    <fieldset>
-        <legend>Persoonlijke informatie:</legend>
-        <label >Voornaam:<br>
-            <input type="text" name="firstname"><br>
-        </label>
+<p id="welcome"></p>
+<form>
+    What is your name: <input type="text" id="name"><br/>
+    <input type="button" value="submit" onclick="writeName();"/>
 
-        <label>Achternaam:<br>
-            <input type="text" name="lastname"><br>
-        </label>
-
-        <label>E-mail adres:<br>
-            <input type="email" name="email"><br>
-        </label>
-        <label>Geslacht:<br>
-            <input type="radio" name="gender" value="male" checked> Man<br>
-            <input type="radio" name="gender" value="female"> Vrouw<br>
-            <input type="radio" name="gender" value="other"> Overig<br><br>
-            <input type="submit" value="Submit">
-        </label>
-    </fieldset>
 </form>
+
+<!--<form id="myForm" onsubmit="return validateForm()" method="post" action="Thanks.html">-->
+<!--    <fieldset>-->
+<!--        <legend>Persoonlijke informatie:</legend>-->
+<!--        <label >Voornaam:<br>-->
+<!--            <input type="text" name="firstname"><br>-->
+<!--        </label>-->
+
+<!--        <label>Achternaam:<br>-->
+<!--            <input type="text" name="lastname"><br>-->
+<!--        </label>-->
+
+<!--        <label>E-mail adres:<br>-->
+<!--            <input type="email" name="email"><br>-->
+<!--        </label>-->
+<!--        <label>Geslacht:<br>-->
+<!--            <input type="radio" name="gender" value="male" checked> Man<br>-->
+<!--            <input type="radio" name="gender" value="female"> Vrouw<br>-->
+<!--            <input type="radio" name="gender" value="other"> Overig<br><br>-->
+<!--            <input type="submit" value="Submit">-->
+<!--        </label>-->
+<!--    </fieldset>-->
+<!--</form>-->
 
 </body>
 </html>

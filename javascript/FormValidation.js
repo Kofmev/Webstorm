@@ -15,3 +15,11 @@ function validateForm() {
         return false;
     }
 }
+
+function writeName(){
+
+    var welcome = document.getElementById('welcome ');
+    var name = document.getElementById('name');
+
+    welcome.innerHTML = "welcome" + name.value+".<br/>"
+}
