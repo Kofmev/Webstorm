@@ -24,9 +24,9 @@ function writeName() {
     var email = document.getElementById('email');
     var formContent = document.getElementById('form');
 
-
-    welcome.innerHTML = "Hey " + firstName.value + " " + lastName.value + ".<br>"
-        + email.value + "<br>";
+    welcome.innerHTML = "Hey, bedankt voor het invullen van je gegevens " + firstName.value + ".<br>"
+        + "je ingevulde gegevens zijn:<br><br>" + "Voornaam:<br>" + firstName.value + "<br>" + "Achternaam:<br>"
+        + lastName.value + "<br>" + "E-mail adres: <br>" + email.value + "<br>";
 
     formContent.innerHTML = "";
 }
