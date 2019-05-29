@@ -19,24 +19,6 @@
 
 <video controls id="video" width="700" height="500" ></video>
 
-<div>
-    @{
-    if (IsPost) {
-    string fistname = Request.Form["firstname"];
-    string contactname = Request.Form["contactname"];
-    int employeecount = Request.Form["employees"].AsInt();
-
-    <text>
-        You entered: <br />
-        Company Name: @companyname <br />
-        Contact Name: @contactname <br />
-        Employee Count: @employeecount <br />
-    </text>
-    }
-    }
-
-</div>
-
 <p>
     Ontzettend bedankt voor het opsturen van je informatie. We gaan hier natuurlijk helemaal niks mee doen ;)
 </p>
