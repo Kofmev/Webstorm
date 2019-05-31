@@ -1,3 +1,5 @@
+// Form validatie
+
 function validateForm() {
     const x = document.forms["form"]["firstname"].value;
     const y = document.forms["form"]["lastname"].value;
@@ -16,6 +18,7 @@ function validateForm() {
     }
 }
 
+// Functie om de naam terug te geven
 function writeName() {
 
     var welcome = document.getElementById('welcome');

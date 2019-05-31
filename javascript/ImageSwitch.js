@@ -1,3 +1,5 @@
+//Functie om te wisselen tussen meerdere images
+
 var i = 0;
 
 function fn(e) {
