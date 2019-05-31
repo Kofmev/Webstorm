@@ -4,6 +4,7 @@
     box-sizing: border-box;
 }
 
+/*Bepalen van de basis voor de body*/
 body {
     margin: 0;
     font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -48,12 +49,10 @@ input[type=button] {
     padding: 12px 20px;
     margin: 8px 0;
 }
-
+/*Standaard image voor de canvas selecteren*/
 canvas{
     background: url("../images/HordeCrest.jpg") center;
     }
-
-
 
 ul,
 ol {
@@ -64,8 +63,7 @@ li {
     margin-bottom: 10px;
 }
 
-/* Pseudo-classes ------------------ */
-
+/*Anchor bepalingen*/
 a:link {
     color: firebrick;
     text-decoration: none;
@@ -177,12 +175,6 @@ a:active {
     background-size: contain;
 }
 
-.arrow {
-    width: 50px;
-}
-
-/* Floated Columns ------------------ */
-
 .subtlety,
 .assassination,
 .combat {
@@ -192,15 +184,15 @@ a:active {
     padding-top: 25px;
 }
 
-
-/* Float Clearfix ------------------ */
-
 .group:after {
     content: "";
     display: table;
     clear: both;
 }
 
+.spacebar {
+    visibility: hidden;
+}
 /* Dropdown menu ------------------*/
 
 /* Dropdown Button */
