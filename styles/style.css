@@ -7,7 +7,7 @@
 body {
     margin: 0;
     font: 1em/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
-    background-color: dimgray;
+    background: radial-gradient(#e66465, #9198e5);;
 }
 
 h1 {
@@ -37,19 +37,9 @@ img {
     border-radius: 5%;
 }
 
-video {
-    width: 102%;
-    height: 102%;
-    left: -5px;
-    margin: -10px;
-    position: absolute;
-    top: 0;
-    overflow: hidden;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-bottom: 20px;
+video{
+    border-radius: 30%;
 }
-
 form {
     width: 40%;
 }
@@ -60,7 +50,12 @@ input[type=button] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
-    box-sizing: border-box;
+}
+
+canvas{
+    margin-left: 250px;
+    align-self: center;
+    width: 20%;
 }
 
 ul,

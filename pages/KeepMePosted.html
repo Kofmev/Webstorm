@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Hou mij op de hoogte!</title>
+    <title>Keep me posted</title>
     <link rel="stylesheet" href="../styles/style.css">
     <script src="../javascript/Form.js"></script>
 </head>
@@ -11,8 +11,8 @@
     <button class="dropbtn">Menu</button>
     <div class="dropdown-content">
         <a href="Talents.html">Talents</a>
-        <a href="OtherClasses.html">Andere classes</a>
-        <a href="Movie.html">Filmpje van WoW</a>
+        <a href="OtherRaces.html">Andere classes</a>
+        <a href="Movie.html">Outlands intro</a>
         <a href="Index.html">Home</a>
     </div>
 </div>
@@ -21,33 +21,38 @@
     <img class="main-image" src="../images/bresh.jpg" alt="image of rogue">
 </header>
 
-    <div class="secondary-content group">
+<div class="secondary-content group">
 
-              <p class="title t-border">Hou mij op de hoogte</p>
+    <p class="title t-border">Hou mij op de hoogte</p>
 
-        <p class="intro">
-            Wil je graag op de hoogte gehouden worden van de laatste informatie omtrent deze gruwelijke game?
-            Vul dan hieronder je gegevens in, dan sturen we je mails als we nieuwe informatie beschikbaar hebben!
-        </p>
-    </div>
+    <p class="intro">
+        Wil je graag op de hoogte gehouden worden van de laatste informatie omtrent deze gruwelijke game?
+        Vul dan hieronder je gegevens in, dan sturen we je mails als we nieuwe informatie beschikbaar hebben!
+    </p>
+</div>
 <div class="form-content group">
-<p id="welcome"></p>
+    <p id="welcome"></p>
 
-<form id="form" action="Movie.html">
-    <fieldset>
-        <legend>Persoonlijke gegevens:</legend>
-        <label>Voornaam:<br>
-            <input type="text" id="firstname"><br>
-        </label>
-        <label> Achternaam:<br>
-            <input type="text" id="lastname"><br>
-        </label>
-        <label> E-mail adres:<br>
-            <input type="email" id="email"><br>
-        </label>
-        <input type="button" value="Submit" onclick=" validateForm(), writeName()">
-    </fieldset>
-</form>
-    </div>
+    <form id="form" action="Movie.html">
+        <fieldset>
+            <legend>Persoonlijke gegevens:</legend>
+            <label>Voornaam:<br>
+                <input type="text" id="firstname"><br>
+            </label>
+            <label> Achternaam:<br>
+                <input type="text" id="lastname"><br>
+            </label>
+            <label> E-mail adres:<br>
+                <input type="email" id="email"><br>
+            </label>
+            <input type="button" value="Submit" onclick=" validateForm(), writeName()">
+        </fieldset>
+    </form>
+</div>
+<footer class="main-footer">
+    <p>Gemaakt door K.F.M. Verbeek in opdracht van <a href="https://www.novi.nl/" target="_blank">Hogeschool Novi</a>.
+    </p>
+    <a href="#header-top">Terug naar boven &raquo;</a>
+</footer>
 </body>
 </html>
